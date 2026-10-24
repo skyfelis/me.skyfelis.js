@@ -4,6 +4,9 @@
       <div>
         <p>&copy; {{ currentYear }} Mayu Kawashima</p>
         <p class="mt-1 text-xs text-slate-400">プロフィール画像の制作に生成AIを使用しています。</p>
+        <p class="mt-1 text-xs leading-5 text-slate-400">
+          本サイトにおける内容・発言は個人の見解であり、所属・関係する組織の公式見解を示すものではありません。
+        </p>
       </div>
       <a href="#top" class="transition-colors hover:text-[#397db8]">Back to top ↑</a>
     </div>

@@ -27,7 +27,7 @@
 
 <script setup lang="ts">
 const links = [
-  { name: "Portfolio", description: "制作物・技術活動", url: "https://portfolio.shiomiolog.com/" },
+  { name: "Blog", description: "技術・日々の記録", url: "https://blog.skyfelis.jp/" },
   { name: "researchmap", description: "研究者プロフィール・研究業績", url: "https://researchmap.jp/mayu2664" },
   { name: "ORCID", description: "0009-0008-4197-3331", url: "https://orcid.org/0009-0008-4197-3331" },
   { name: "GitHub", description: "@shiomiolog", url: "https://github.com/shiomiolog" },

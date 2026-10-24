@@ -44,19 +44,21 @@ const education = [
     institution: "放送大学",
     program: "大学院文化科学研究科",
     status: "（修士課程）修士選科生",
+    note: "2026/10 - 2027/3 休学",
   },
   {
     period: "2026/4 - 現在",
     institution: "放送大学",
     program: "教養学部 教養学科 社会と産業コース",
     status: "全科履修生",
+    note: "2026/10 - 2027/3 休学",
   },
   {
     period: "2021/4 - 2026/3",
     institution: "サイバー大学",
     program: "IT総合学部 IT総合学科",
     status: "学士（IT総合学）",
-    note: "2023/4 休学・2024/4 復学",
+    note: "2023/4 - 2024/3 休学",
   },
   {
     period: "2018/4 - 2021/3",

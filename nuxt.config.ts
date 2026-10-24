@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: "ja" },
-      title: "mayu2664.jp - KAWASHIMA Mayu",
+      title: "mayu2664.skyfelis.jp - KAWASHIMA Mayu",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
