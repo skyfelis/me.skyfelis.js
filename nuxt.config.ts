@@ -8,10 +8,14 @@ export default defineNuxtConfig({
 
   // モジュール設定
   modules: ["@nuxt/ui"],
+
+  // 静的サイトとして出力（Cloudflare Workers Static Assets で配信）
+  nitro: { preset: "static" },
+
   app: {
     head: {
       htmlAttrs: { lang: "ja" },
-      title: "mayu2664.skyfelis.jp - KAWASHIMA Mayu",
+      title: "me.skyfelis.jp - KAWASHIMA Mayu",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
