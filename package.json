@@ -10,11 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/ui": "^4.4.0",
+    "@nuxt/ui": "^4.13.1",
     "better-sqlite3": "^12.6.2",
-    "nuxt": "^4.3.0",
+    "nuxt": "^4.7.0",
     "typescript": "^5.9.3",
     "vue": "^3.5.27",
     "vue-router": "^4.6.4"
+  },
+  "overrides": {
+    "readdir-glob": {
+      "minimatch": "^11.0.1"
+    }
   }
 }
