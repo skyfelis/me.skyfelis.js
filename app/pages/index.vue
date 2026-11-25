@@ -1,17 +1,15 @@
 <template>
     <main>
         <ProfileHero />
-        <ProfileResearchOverview />
-        <ProfileEducationSection />
+        <ProfileResearchSection />
+        <ProfileBiographySection />
         <ProfileActivitiesSection />
-        <ProfileAffiliationsSection />
-        <ProfileExternalProfilesSection />
         <ProfileContactSection />
     </main>
 </template>
 
 <script setup lang="ts">
-const siteUrl = "https://mayu2664.skyfelis.jp"
+const siteUrl = "https://me.skyfelis.jp"
 const pageTitle = "川島 雅結（KAWASHIMA Mayu）｜情報セキュリティ・情報法"
 const pageDescription =
     "情報セキュリティを技術と法制度の両面から捉え、安全で信頼できる情報通信基盤について研究する川島雅結のプロフィールサイトです。"
@@ -24,7 +22,7 @@ useSeoMeta({
     ogDescription: pageDescription,
     ogType: "website",
     ogUrl: siteUrl,
-    ogSiteName: "mayu2664.skyfelis.jp",
+    ogSiteName: "me.skyfelis.jp",
     ogLocale: "ja_JP",
     ogImage,
     ogImageAlt: "川島雅結のプロフィール画像",
